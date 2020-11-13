@@ -16,7 +16,7 @@
 CC=g++
 BITS?=64
 
-SHELL:=/bin/bash
+SHELL:=bash
 UNAME:=$(shell uname | tr '[A-Z]' '[a-z]')
 PWD:=$(shell pwd)
 
